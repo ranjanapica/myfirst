@@ -1,0 +1,53 @@
+{
+	"info": {
+		"_postman_id": "12fa3738-27f1-46d0-9454-5b879dd29dcb",
+		"name": "Postfirst",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "22335476"
+	},
+	"item": [
+		{
+			"name": "API_CurrentWeather_STHLM",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": []
+				},
+				"url": {
+					"raw": "https://api.openweathermap.org/data/2.5/weather?lat=59.500&lon=18.000&appid=30e4904e63ddcf2e3d8847b94fe4806b",
+					"protocol": "https",
+					"host": [
+						"api",
+						"openweathermap",
+						"org"
+					],
+					"path": [
+						"data",
+						"2.5",
+						"weather"
+					],
+					"query": [
+						{
+							"key": "lat",
+							"value": "59.500"
+						},
+						{
+							"key": "lon",
+							"value": "18.000"
+						},
+						{
+							"key": "appid",
+							"value": "30e4904e63ddcf2e3d8847b94fe4806b"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
